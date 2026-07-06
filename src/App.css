@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+}
+
+.App {
+  width: 500px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+form {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.contact-list-title {
+  text-align: center;
+  margin: 30px 0 20px;
+  color: #333;
+}
+
+.contact-card {
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 15px;
+  border-left: 4px solid #2563eb;
+}
+
+.contact-card h2 {
+  margin: 0 0 10px;
+  color: #2563eb;
+  font-size: 22px;
+}
+
+.contact-card p {
+  margin: 6px 0;
+  color: #555;
+  font-size: 15px;
+}
